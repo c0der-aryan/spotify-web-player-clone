@@ -1,0 +1,132 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+body{
+    background:repeating-linear-gradient(#212121,black);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment:  fixed;
+}
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: baseline;
+    background-color: black;
+    width:100%;
+    margin:0;
+    padding:4px;
+    height: 100px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+#sp{
+    display: inline-block;
+    position: relative;
+    top:17px;
+    left:37px;
+    color: white;
+}
+
+#log{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#splogo{
+    position: relative;
+    top:30px;
+    left:30px;
+    color: white;
+    
+}
+
+main {
+    background-color: black;
+    margin: auto;
+    width:45vw;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    top:150px;
+    padding: 50px;
+}
+
+.loginoptions{
+    font-size: 20px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    width:400px;
+    background-color: black;
+    margin: 10px 100px;
+    padding: 10px ;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #ffffff73 ;
+    
+}
+
+#googlog{
+    position: relative;
+    left:-50px;
+}
+#facelog{
+    position: relative;
+    left:-39px;
+}
+#applelog{
+    position: relative;
+    left:-57px;
+}
+
+hr{
+    border-color: #4f4f4f9d;
+}
+
+::placeholder{
+    padding: 10px;
+}
+
+input{
+    background-color: #161616;
+    box-shadow: none;
+    border:1px solid rgba(255, 255, 255, 0.339);
+    height: 40px;
+    width:200px;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    text-align: left;
+    margin: auto;
+    width:200px;
+    font-weight:bold ;
+}
+
+#final{
+    background-color:#1ED760 ;
+    border:0;
+    width:180px;
+    height:40px;
+    font-weight:bold ;
+    color: black;
+    font-size: 15px;
+    border-radius: 25px;
+    margin:10px;
+}
+span {
+    color: #989898;
+}

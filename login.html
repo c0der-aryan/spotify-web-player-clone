@@ -5,10 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="logstyl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <h2>Spotify</h2>
+        <i style="font-size:40px" class="fa" id="splogo">&#xf1bc;</i>
+        <h2 id="sp">Spotify</h2>
     </header>
+    <main>
+        <h1 id="log"><b>Log in To Spotify</b></h1>
+        <div class="loginoptions">
+            
+            <div class="boxes">
+                <img src="GOOG.svg" alt="google logo" height="25px" id="googlog">&nbsp Continue with Google</div>
+            <div class="boxes">
+                <img src="facebook.png" alt="facebook logo" height="25px" id="facelog">&nbsp Continue with Facebook</div>
+            <div class="boxes">
+                <img src="apple.png" alt="apple logo" height="25px" id="applelog">&nbsp Continue with Apple</div>
+            <div class="boxes">Continue with Phone Number</div>
+        </div>
+        <br>
+        <br>
+        
+         <hr>
+        <form action="#">
+            <p class="frm">
+                <label for = "email" >Email or Username</label><br>
+                <input type="text" id="name" name="name" placeholder="Email or Username"><br>
+            </p>
+            <p class="frm">
+                <label for = "pass" >Password</label><br>
+                <input type="password" id="pass" name="pass" placeholder="Password">
+            </p>
+            <button id="final">Log In</button>
+        </form>
+        <p><u>Forgot your password?</u></p><br>
+        <hr>
+        <br>
+        <p><span>Don't have an account? </span><u>Sign up for Spotify</u></p>
+    </main>
+    
 </body>
 </html>
