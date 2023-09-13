@@ -75,9 +75,24 @@ main {
     display: flex;
     justify-content: center;
     border: 1.5px solid #ffffff73 ;
-    
+    cursor: pointer;
 }
 
+u{
+    cursor: pointer;
+}
+u:hover{
+    font-size: 17px;
+}
+.boxes:hover {
+    background-color:#292929;
+}
+button{
+    cursor: pointer;
+}
+#final:hover{
+    background-color: #01ff5a;
+}
 #googlog{
     position: relative;
     left:-50px;
